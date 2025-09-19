@@ -8,8 +8,8 @@ public class Main {
         crowName.showName();
         crowName.looks();
 
-        AnimalFactory animalFact= new DogFactory();
-        Animal animal= animalFact.createAnimal();
+        AnimalFactory animalFactory= new DogFactory();
+        Animal animal= animalFactory.createAnimal();
         animal.eat();
         animal.sound();
     }
