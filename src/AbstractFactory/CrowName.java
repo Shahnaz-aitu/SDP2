@@ -2,11 +2,11 @@ package AbstractFactory;
 
 public class CrowName implements Name{
     @Override
-    public void showType() {
-        System.out.println("Crow");
+    public void showName() {
+        System.out.println("Karkara");
     }
     @Override
-    public void Size(){
+    public void looks(){
         System.out.println("Crow size");
     }
 }

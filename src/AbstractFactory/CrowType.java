@@ -1,6 +1,6 @@
 package AbstractFactory;
 
-public class CrowType implements Type{
+public class CrowType implements Type {
     @Override
     public void showType() {
         System.out.println("Crow");
