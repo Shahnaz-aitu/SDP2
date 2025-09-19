@@ -6,7 +6,11 @@ public class Main {
         BirdsFactory crowFactory = new CrowFactory();
         Name crowName = crowFactory.createName();
         crowName.showName();
+        crowName.looks();
 
-
+        AnimalFactory animalFact= new DogFactory();
+        Animal animal= animalFact.createAnimal();
+        animal.eat();
+        animal.sound();
     }
 }
